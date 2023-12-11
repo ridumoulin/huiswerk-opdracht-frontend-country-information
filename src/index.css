@@ -10,3 +10,60 @@ body {
 h1, h2, h3 {
   font-family: 'Gochi Hand', cursive;
 }
+
+header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+button {
+  margin: 30px 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+li {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.region-blue {
+  color: blue;
+}
+
+.region-green {
+  color: green;
+}
+
+.region-red {
+  color: red;
+}
+
+.region-yellow {
+  color: yellow;
+}
+
+.region-purple {
+  color: purple;
+}
+
+
